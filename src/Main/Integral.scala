@@ -2,7 +2,8 @@ package Main
 
 object Main {
   def main(args: Array[String]): Unit = {
-  println("Trapezoidal integration")    
+  println("Trapezoidal integration") 
+  //set integrate limits, and n of iterations
   var integral = IntegralT(0,math.Pi,20)
   println("Result: "+integral)
   }
